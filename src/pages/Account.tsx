@@ -1,10 +1,10 @@
 
-import React, { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { User, Heart, Clock, Star, BookOpen, Award } from "lucide-react";
+import { Award, BookOpen, Clock, Heart, Star, User } from "lucide-react";
+import { useState } from "react";
 import { STORIES } from "../components/data/stories";
 
 export default function Account() {
